@@ -1,0 +1,20 @@
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    .logo {
+        flex: 1;
+        height: 50px;
+        width: 50px;
+        padding-bottom: 2em;
+    }
+    .nav-list-container {
+        .nav-list {
+            ul{
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+        }
+    }
+}
