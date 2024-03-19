@@ -1,16 +1,32 @@
 .nav-bar {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
+  justify-content: center;
+  align-items: center;
+  background-color: #001021;
+  height: 5em;
 }
-.nav-bar .logo {
-  flex: 1;
-  height: 50px;
-  width: 50px;
-  padding-bottom: 2em;
+.nav-bar .nav-list-container .nav-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
 }
-.nav-bar .nav-list-container .nav-list ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+.nav-bar .nav-list-container .nav-list li {
+  padding: 0 1em;
+  margin-right: 2em;
+}
+.nav-bar .nav-list-container .nav-list li a {
+  color: white;
+  text-decoration: none;
+  background-color: #001021;
+  transition: opacity 0.3s;
+}
+.nav-bar .nav-list-container .nav-list li a:hover {
+  opacity: 0.8;
+}
+.nav-bar .nav-list-container .nav-list li:last-child {
+  margin-right: 0;
+}
+.nav-bar .nav-list-container .nav-list li a img {
+  height: 100%;
+  width: auto;
 }/*# sourceMappingURL=navigation.css.map */
